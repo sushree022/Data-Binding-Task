@@ -1,0 +1,4 @@
+<h4> Input In Parent Component</h4>
+<input type="text" placeholder="Enter text here" #input>
+<button (click)="onclick(input.value)"> enter </button>
+<app-scenario3child [parentData]="info"></app-scenario3child>
